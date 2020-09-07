@@ -163,7 +163,7 @@ if __name__ == "__main__":
 
     eucs_we_have = ['Eucalyptus accedens',\
                     'Eucalyptus albida',\
-                    'Eucalyptus blakelyi',\'
+                    'Eucalyptus blakelyi',\
                     'Eucalyptus camaldulensis',\
                     'Eucalyptus capillosa',\
                     'Eucalyptus cladocalyx',\
