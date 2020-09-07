@@ -72,7 +72,7 @@ def main(eucs_we_have):
                 Trange = np.max(vals) - np.min(vals)
                 spp_count = len(vals)
 
-
+        print(spp, np.mean(vals), np.mean(vals2))
 
         ax.plot(lons_needed, lats_needed, ls=" ", marker='o', color=colours[j],
                 markersize=0.5, alpha=0.5, label=spp)
