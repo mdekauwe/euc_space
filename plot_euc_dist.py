@@ -178,9 +178,7 @@ if __name__ == "__main__":
                     'Eucalyptus macrorhyncha',\
                     'Eucalyptus marginata',\
                     'Eucalyptus melliodora',\
-                    'Eucalyptus miniata',\
                     'Eucalyptus obliqua',\
-                    'Eucalyptus platyphylla',\
                     'Eucalyptus populnea',\
                     'Eucalyptus saligna',\
                     'Eucalyptus sideroxylon',\
