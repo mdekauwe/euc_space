@@ -161,8 +161,9 @@ def x_round(x):
 
 if __name__ == "__main__":
 
-    eucs_we_have = ['Eucalyptus albida',\
-                    'Eucalyptus blakelyi',\
+    eucs_we_have = ['Eucalyptus accedens',\
+                    'Eucalyptus albida',\
+                    'Eucalyptus blakelyi',\'
                     'Eucalyptus camaldulensis',\
                     'Eucalyptus capillosa',\
                     'Eucalyptus cladocalyx',\
@@ -170,16 +171,21 @@ if __name__ == "__main__":
                     'Eucalyptus diversicolor',\
                     'Eucalyptus dunnii',\
                     'Eucalyptus globulus',\
+                    'Eucalyptus globulus',\
                     'Eucalyptus gomphocephala',\
                     'Eucalyptus grandis',\
                     'Eucalyptus largiflorens',\
                     'Eucalyptus macrorhyncha',\
                     'Eucalyptus marginata',\
                     'Eucalyptus melliodora',\
+                    'Eucalyptus miniata',\
                     'Eucalyptus obliqua',\
+                    'Eucalyptus platyphylla',\
                     'Eucalyptus populnea',\
                     'Eucalyptus saligna',\
                     'Eucalyptus sideroxylon',\
                     'Eucalyptus tereticornis',\
-                    'Eucalyptus viminalis']
+                    'Eucalyptus tetrodonta',\
+                    'Eucalyptus viminalis',\
+                    'Eucalyptus wandoo']
     main(eucs_we_have)
