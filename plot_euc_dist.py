@@ -26,14 +26,14 @@ def main(eucs_we_have):
     df = pd.read_csv(fname)
 
     names = np.unique(eucs_we_have)
-
+    print(len(names))
     fig = plt.figure()
     ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
 
 
     import seaborn as sns
     #colours = sns.color_palette("tab20b", len(names))
-    colours = sns.color_palette("tab20")
+    colours = sns.color_palette("tab20", len(names))
 
     for j,spp in enumerate(names):
 
@@ -73,7 +73,7 @@ def main(eucs_we_have):
                 spp_count = len(vals)
 
 
-        print(spp, np.mean(vals), np.mean(vals2))
+
         ax.plot(lons_needed, lats_needed, ls=" ", marker='o', color=colours[j],
                 markersize=0.5, alpha=0.5, label=spp)
 
@@ -174,6 +174,7 @@ if __name__ == "__main__":
                     'Eucalyptus grandis',\
                     'Eucalyptus largiflorens',\
                     'Eucalyptus macrorhyncha',\
+                    'Eucalyptus marginata',\
                     'Eucalyptus melliodora',\
                     'Eucalyptus obliqua',\
                     'Eucalyptus populnea',\
