@@ -87,8 +87,8 @@ def main(eucs_we_have):
         lables_patches.append(add_patch)
 
     ax.legend(lables_patches, names, numpoints=1, loc='upper center',
-              bbox_to_anchor=(0.25, 0.2), ncol=3,framealpha=1.0,
-              frameon=True, fontsize=6)
+              bbox_to_anchor=(0.25, 0.25), ncol=3,framealpha=1.0,
+              frameon=True, fontsize=5)
 
     ax.coastlines()
 
