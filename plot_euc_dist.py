@@ -160,8 +160,8 @@ def x_round(x):
 
 
 if __name__ == "__main__":
-
-    eucs_we_have = ['Eucalyptus accedens',\
+    #"""
+    eucs_i_have = ['Eucalyptus accedens',\
                     'Eucalyptus albida',\
                     'Eucalyptus blakelyi',\
                     'Eucalyptus camaldulensis',\
@@ -186,4 +186,43 @@ if __name__ == "__main__":
                     'Eucalyptus tetrodonta',\
                     'Eucalyptus viminalis',\
                     'Eucalyptus wandoo']
+    #"""
+
+    # brendan's list
+    eucs_we_have = ['Eucalyptus cladocalyx',\
+                    'Eucalyptus crebra',\
+                    'Eucalyptus dunnii',\
+                    'Eucalyptus saligna',\
+                    'Eucalyptus tetricornis',\
+                    'Eucalyptus grandis',\
+                    'Eucalyptus melliodora',\
+                    'Eucalyptus sideroxylon',\
+                    'Eucalyptus teriticornis',\
+                    'Eucalyptus grandis',\
+                    'Eucalyptus viminalis',\
+                    'Eucalyptus sideroxylon',\
+                    'Eucalyptus blakelyi',\
+                    'Eucalyptus macrorhyncha',\
+                    'Eucalyptus melliodora',\
+                    'Eucalyptus largiflorens',\
+                    'Eucalyptus populnea',\
+                    'Eucalyptus miniata',\
+                    'Eucalyptus tetradonta',\
+                    'Eucalyptus fibrosa',\
+                    'Eucalyptus moluccana',\
+                    'Eucalyptus teriticornus',\
+                    'Eucalyptus dumosa',\
+                    'Eucalyptus socialis',\
+                    'Eucalyptus obliqua',\
+                    'Eucryphia lucida',\
+                    'Eucalyptus salmonophloia',\
+                    'Eucalyptus salubris',\
+                    'Eucalyptus dalrympleana',\
+                    'Eucalyptus laevopinea',\
+                    'Eucalyptus pauciflora']
+
+    eucs_we_have = eucs_i_have + eucs_we_have
+    eucs_we_have = set(eucs_we_have)
+    eucs_we_have = list(eucs_we_have)
+
     main(eucs_we_have)
