@@ -39,8 +39,8 @@ def main(eucs_we_have):
             Tmin = 99999.
             Tmax = -99999.
             for i in range(len(df_sp)):
-                latx = float(x_round(float(lats_needed[i])))
-                lonx = float(x_round(float(lons_needed[i])))
+                latx = float(lats_needed[i])
+                lonx = float(lons_needed[i])
 
                 rows.append([spp, latx, lonx])
 
